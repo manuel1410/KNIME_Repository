@@ -1,0 +1,11 @@
+2023-06-10 20:40:30,920 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2023-06-10 20:40:30,920 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2023-06-10 20:40:30,921 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : Acceso denegado al Registro solicitado.
+2023-06-10 20:40:30,921 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : En l¡nea: 1 Car cter: 1
+2023-06-10 20:40:30,921 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2023-06-10 20:40:30,921 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2023-06-10 20:40:30,921 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2023-06-10 20:40:30,921 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2023-06-10 20:40:30,921 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2023-06-10 20:40:30,922 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2023-06-10 20:41:30,064 : WARN  : ModalContext :  : Node : Color Manager : 3:2 : Column "income" has no nominal values set: execute predecessor or add Binner.
