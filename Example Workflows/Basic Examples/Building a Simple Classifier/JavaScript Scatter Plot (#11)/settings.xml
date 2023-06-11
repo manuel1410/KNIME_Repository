@@ -121,11 +121,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="4.4.0.v202106081256"/>
+    <entry key="node-bundle-version" type="xstring" value="4.7.0.v202211091556"/>
     <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="4.4.0.v202106081256"/>
+    <entry key="node-feature-version" type="xstring" value="4.7.0.v202211091556"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Scatter Plot"/>
     <entry key="hasContent" type="xboolean" value="false"/>
